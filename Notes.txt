@@ -1,0 +1,36 @@
+From desktop,
+	CLI: source ./tensorflow/bin/activate
+
+GPU Server:
+	ssh u12@202.92.132.221
+	sIv*XAj2
+
+Copy from PC to GPU Server:
+	scp <file> <username>@<IP address or hostname>:<Destination>
+	[directory]
+	scp -r /path/to/local/storage user@remote.host:/path/to/copy
+
+Faster R-CNN (PASCAL VOC 2007)
+	python train_frcnn.py -p '/home/robino-redena/Desktop/Reference - Keras FRCNN/VOCdevkit'
+	[with pipe]
+	python train_frcnn.py -p '/home/robino-redena/Desktop/Reference - Keras FRCNN/VOCdevkit' |& tee train.txt
+	python train_frcnn.py -p '/home/u12/ThesisIT/VOCdevkit' |& tee train.txt
+	
+[References]
+(Faster R-CNN)
+https://github.com/yhenon/keras-frcnn.git
+(PASCAL VOC 2007)
+http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+(PASCAL VOC 2012)
+http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+
+tar -xf <name>
+
+mv VOCdevkit/* .
+
+[Download via terminal]
+wget  -O /home/omio/Desktop/ "http://thecanadiantestbox.x10.mx/CC.zip"
+wget  "http://thecanadiantestbox.x10.mx/CC.zip"
+
+VIRTUAL ENV: thesisenv
+cd ~/thesisenv/bin

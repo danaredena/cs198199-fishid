@@ -3,9 +3,9 @@ import csv
 import os
 
 #Constants
-specie =  "LAG"
+specie =  "YFT"
 
-folder = specie# + "-sample"
+folder = specie + "-sample"
 csv_name = specie + "_sample.csv"
 new_folder = folder + "_cropped"
 

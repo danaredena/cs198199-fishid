@@ -10,6 +10,15 @@ Copy from PC to GPU Server:
 	[directory]
 	scp -r /path/to/local/storage user@remote.host:/path/to/copy
 
+SCP REMOTE TO LOCAL:
+	scp -r u12@202.92.132.221:~/fishid ~/Downloads/
+
+SCP LOCAL TO REMOTE:
+	scp -r ~/Dropbox/4th_1stsem/CS198/test_files/ u12@202.92.132.221:~/fishid
+
+REMOVE EMPTY DIR:
+	rm -r <dir>
+
 Faster R-CNN (PASCAL VOC 2007)
 	python train_frcnn.py -p '/home/robino-redena/Desktop/Reference - Keras FRCNN/VOCdevkit'
 	[with pipe]

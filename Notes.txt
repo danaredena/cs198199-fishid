@@ -16,6 +16,14 @@ SCP REMOTE TO LOCAL:
 SCP LOCAL TO REMOTE:
 	scp -r ~/Dropbox/4th_1stsem/CS198/test_files/ u12@202.92.132.221:~/fishid
 
+SCP TEST RESULTS:
+	scp -r u12@202.92.132.221:~/fishid/pred_img ~/Dropbox/4th_1stsem/CS198
+	scp u12@202.92.132.221:~/fishid/test_results.csv ~/Dropbox/4th_1stsem/CS198
+	scp u12@202.92.132.221:~/fishid/train_resnet2.txt ~/Dropbox/4th_1stsem/CS198
+	scp u12@202.92.132.221:~/fishid/training_files/labels.csv ~/Dropbox/4th_1stsem/CS198
+	
+
+
 REMOVE EMPTY DIR:
 	rm -r <dir>
 

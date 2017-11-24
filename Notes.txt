@@ -22,6 +22,10 @@ SCP TEST RESULTS:
 	scp u12@202.92.132.221:~/fishid/train_resnet2.txt ~/Dropbox/4th_1stsem/CS198
 	scp u12@202.92.132.221:~/fishid/training_files/labels.csv ~/Dropbox/4th_1stsem/CS198
 	
+SCP TRAINING:
+	scp -r ~/Dropbox/4th_1stsem/CS198/Batch2/training_files u12@202.92.132.221:~/fishid
+	scp ~/Dropbox/4th_1stsem/CS198/Batch2/labels.csv u12@202.92.132.221:~/fishid/training_files
+	scp -r ~/Dropbox/4th_1stsem/CS198/Batch2/training_files u12@202.92.132.221:~/fishid
 
 
 REMOVE EMPTY DIR:
